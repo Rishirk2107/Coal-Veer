@@ -33,7 +33,7 @@ const checkpasswordInput=document.getElementById("l_pas");
             const resp2=data.message;
             console.log(resp2);
             if (resp2=="User registered successfully"){
-                window.location.href="/contact";
+                window.location.href="/";
             }
             else{
                 alert(resp2)
@@ -56,6 +56,7 @@ const checkpasswordInput=document.getElementById("l_pas");
             headers: {
                 "Content-Type": "application/json"
             },
+            
             body: JSON.stringify(userData)
         })
         .then(response => response.json())
@@ -64,7 +65,7 @@ const checkpasswordInput=document.getElementById("l_pas");
             const resp2=data.message
             console.log(resp2)
             if(resp2=="Login Successful"){
-                window.location.href="/contact";
+                window.location.href="/";
             }
             else{
                 alert(resp2)

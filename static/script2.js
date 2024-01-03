@@ -46,13 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputField = document.getElementById("input");
     inputField.addEventListener("keydown", function (e) {
       if (e.code === "Enter") {
-        sendMessage();
+        sendMessage1();
       }
     });
   });
 
 
-function sendMessage() {
+function sendMessage1() {
   const userMessage = userInput.value;
   //addMessage('user', userMessage);
 
