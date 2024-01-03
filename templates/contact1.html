@@ -32,9 +32,6 @@
 	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="/static/chatscript.js" defer></script>
-	<script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.4.0/dist/tesseract.js"></script>
-
-
 </head>
 
 <body onload="fetchData()">
@@ -46,9 +43,9 @@
 		<!-- <li><a href="chat.html" style="font-weight:bold;color:black;font-family: Verdana, Geneva, Tahoma, sans-serif;">Coal Bot</a></li> -->
 		<!--<li><a href="lang.html"
 				style="font-weight:bold;color:black;font-family: Verdana, Geneva, Tahoma, sans-serif;">Language</a></li>-->
-		<li><a href="/history/"
+		<li><a href="/history"
 				style="font-weight:bold;color:black;font-family: Verdana, Geneva, Tahoma, sans-serif;">History</a></li>
-		<li><a href="/complaint/"
+		<li><a href="complaint.html"
 				style="font-weight:bold;color:black;font-family: Verdana, Geneva, Tahoma, sans-serif;">Complaint</a>
 		</li>
 		<li><a href="#feedback"
@@ -69,7 +66,7 @@
 	<div class="slideshow-container">
 
 		<div class="mySlides fade">
-		  <img src="/static/bg.jpg" style="width:100%">
+		  <img src="/static/fire.jpg" style="width:100%">
 		</div>
 		
 		<div class="mySlides fade">
@@ -88,7 +85,8 @@
 		  <img src="/static/img5.png" style="width:100%">
 		</div>
 		
-	</div><br>
+		</div>
+		<br>
 				
 		<div style="text-align:center">
 		  <span class="dot"></span> 
@@ -97,6 +95,9 @@
 		  <span class="dot"></span>
 		  <span class="dot"></span>
 		</div>
+
+		
+		
 		<script>
 		let slideIndex = 0;
 		showSlides();
@@ -118,7 +119,13 @@
 		  setTimeout(showSlides, 4000);
 		}
 		</script>
-	<br><br><hr><br>
+
+	
+		<br />
+		<br />
+		<br />
+	<br />
+	<hr><br>
 	<p style="margin-left: 55px;
 		 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		  font-size:x-large; 
@@ -186,9 +193,7 @@
 		 font-weight: bold;" data-aos="fade-left" data-aos-delay="250"><span style="color:#000;font-weight:bold;"
 			class="material-symbols-outlined">psychology</span> Simplifying mining regulations
 		has never been this efficient or convenient. Try it out today and experience the future of mining information at
-		your fingertips.</p
-		
-		>
+		your fingertips.</p>
 	<br>
 	<div class="Gif2">
 		<img src="/static/img/gif/end.gif">
@@ -242,7 +247,19 @@
 
 
 
-	
+	<svg viewBox="0 0 960 300" data-aos="fade-up" data-aos-delay="250">
+		<symbol id="s-text">
+			<text text-anchor="middle" x="50%" y="50%"> Coal Bot</text>
+		</symbol>
+
+		<g class="g-ants">
+			<use xlink:href="#s-text" class="text-copy"></use>
+			<use xlink:href="#s-text" class="text-copy"></use>
+			<use xlink:href="#s-text" class="text-copy"></use>
+			<use xlink:href="#s-text" class="text-copy"></use>
+			<use xlink:href="#s-text" class="text-copy"></use>
+		</g>
+	</svg>
 	<center>
 		<h1 id="hashtag1"
 			style="color: #168b60;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bold ;"
@@ -634,23 +651,6 @@
 			2023</p>
 		</div>
 		</p>
-		
-		<svg viewBox="0 0 1000 300" data-aos="fade-up" data-aos-delay="200">
-			<symbol id="s-text">
-				<text text-anchor="middle" x="50%" y="75%"> Coal Veer
-					
-				</text>
-			</symbol>
-	
-			<g class="g-ants">
-				<use xlink:href="#s-text" class="text-copy"></use>
-				<use xlink:href="#s-text" class="text-copy"></use>
-				<use xlink:href="#s-text" class="text-copy"></use>
-				<use xlink:href="#s-text" class="text-copy"></use>
-				<use xlink:href="#s-text" class="text-copy"></use>
-			</g>
-		</svg>
-		
 
 	</footer>
 	<!--   *****   JQuery Link   *****   -->
@@ -713,208 +713,29 @@
 	</script>
 
 	<button class="chatbot-toggler">
-		<span class="material-symbols-rounded">support_Agent</span>
+		<span class="material-symbols-rounded">mode_comment</span>
 		<span class="material-symbols-outlined">close</span>
 	</button>
 	<div class="chatbot">
 		<header>
-			<h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:medium;font-weight: bold;">🤖 Coal Veer
+			<h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:medium;font-weight: bold;">🤖 CoalBot
 			</h2>
 			<span class="close-btn material-symbols-outlined">close</span>
 		</header>
 		<ul class="chatbox">
 			<li class="chat incoming">
 				<span class="material-symbols-outlined">psychology</span>
-				<p id="bot-response" class="Intro">Hi there 👋 I am Coal Veertha, here to help you resolve your queries regarding acts, rules and regulations of mining industries in India.<br>How can I assist you today?</p></li>
-				<br>
-				<p button id="hd"  style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('The Mines Act')">The Mines Act</p>
-			<p button id="hd"  style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#fcfcfc;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('MMDR Act')">MMDR Act</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Coal Mines Special Provisons Act')">Coal Mines Special Provisons Act</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Indian Explosives Act')">Indian Explosives Act</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Coal Bearing Areas Act')">Coal Bearing Areas Act</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Mine Rules 1955')">Mine Rules 1955</p><p button style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Mine Creche Rules')">Mine Creche Rules</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Mine Rescue Rules')">Mine Rescue Rules</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Colliery Control Order')">Colliery Control Order</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Coal Mines Regulations')">Coal Mines Regulations</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Oil Mines Regulations')">Oil Mines Regulations</p>
-			<p button id="hd" style="text-align: center; font-weight: bold;
-			margin-left: 50px;
-			font-family:'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-			background-color:#ffffff;
-			font-size: larger;
-			font-weight: bold;
-			color: rgb(0, 0, 0);padding: 11px;
-			border-radius: 50px;
-			cursor: pointer;" onclick="static('Metalliferous Mines Regulations')">Metalliferous Mines Regulations</p>
+				<p id="bot-response">Hi there 👋 I am an AI Coalbot<br></p>
+			</li>
 		</ul>
 		<div class="chat-input">
-			<div class="language-dropdown">
-				<span id="translate-btn" class="material-symbols-outlined">translate</span>
-				<div id="language-options" class="language-options">
-				<span class="language-option" data-lang="en" >English</span>
-				  <span class="language-option" data-lang="hi">हिंदी</span>
-				  <span class="language-option" data-lang="ta">தமிழ்</span>
-				  <span class="language-option" data-lang="te">తెలుగు</span>
-				  <span class="language-option" data-lang="ml">മലയാളം</span>
-				  <span class="language-option" data-lang="pa">ਪੰਜਾਬੀ</span>
-				</div>
-			  </div>
-			  <script>document.addEventListener('DOMContentLoaded', function () {
-				const translateBtn = document.getElementById('translate-btn');
-				const languageOptions = document.getElementById('language-options');
-			  
-				translateBtn.addEventListener('click', function () {
-				  languageOptions.style.display = (languageOptions.style.display === 'block') ? 'none' : 'block';
-				});
-			  
-				// Handle language selection
-				languageOptions.addEventListener('click', function (event) {
-				  if (event.target.classList.contains('language-option')) {
-					const selectedLanguage = event.target.getAttribute('data-lang');
-					// Implement your logic for language selection, e.g., set the selected language for translation
-					console.log('Selected Language:', selectedLanguage);
-					lang=selectedLanguage
-					sendlang(selectedLanguage);
-					// Close the dropdown
-					languageOptions.style.display = 'none';
-				  }
-				});
-			  
-				// Close dropdown when clicking outside
-				window.addEventListener('click', function (event) {
-				  if (!event.target.matches('.material-symbols-outlined')) {
-					languageOptions.style.display = 'none';
-				  }
-				});
-			  });
-			  </script>
-			  
+			<span id="send-btn" class="material-symbols-outlined">translate</span>
 			<textarea placeholder="Enter a message..." spellcheck="true" required id="message"></textarea>
-			<span id="capture-btn" class="material-symbols-rounded" onclick="showOverlay()">photo_camera</span>
-			<span id="voiceRecordBtn" style="color:#1eb67f;" class="material-symbols-rounded" >keyboard_voice</span>
-			<audio id="toggle-audio" src="/static/mic.mp3"></audio>
+			<span id="send-btn" class="material-symbols-rounded">photo_camera</span>
+			<span id="send-btn" style="color:#1eb67f;" class="material-symbols-rounded">keyboard_voice</span>
 			<span id="send-btn1" style="color:#af197d;" class="material-symbols-rounded">send</span>
 		</div>
 	</div>
-	<!-- Add this overlay after the chatbot's main div -->
-
-	<script>
-	
-
-		document.addEventListener("DOMContentLoaded", function () {
-			const toggleVoiceButton = document.getElementById('voiceRecordBtn');
-			const toggleAudio = document.getElementById('toggle-audio');
-		
-			let voiceEnabled = false;
-		
-			toggleVoiceButton.addEventListener('click', toggleVoice);
-		
-			function toggleVoice() {
-				voiceEnabled = !voiceEnabled;
-		
-				if (voiceEnabled) {
-					toggleAudio.play();
-					speak("listening");
-				}
-			}
-		
-			function speak(message) {
-				const synth = window.speechSynthesis;
-				const utterance = new SpeechSynthesisUtterance(message);
-				synth.speak(utterance);
-			}
-		});
-		
-		</script>
 </body>
-
-<script src="static/messages.js"></script>
+<script src="/static/messages.js"></script>
 </html>
